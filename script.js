@@ -1,4 +1,4 @@
-function rain() {
+function animation() {
     let cloud = document.querySelector('.cloud');
     let e = document.createElement('div');
 
@@ -20,5 +20,5 @@ function rain() {
 }
 
 setInterval(function () {
-    rain()
+    animation()
 }, 20)
