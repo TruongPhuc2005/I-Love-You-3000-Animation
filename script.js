@@ -10,6 +10,7 @@ function animation() {
     let duration = Math.random() * 1;
 
     e.innerText = '🩷';
+    e.innerText = '💗';
     e.style.left = left + 'px';
     e.style.fontSize = 0.5 + size + 'em';
     e.style.animationDirection = 1 + duration + 's';
